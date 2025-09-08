@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="150" fill="#f0f3ff" />
+  
+  <!-- Earbuds Case -->
+  <rect x="150" y="180" width="100" height="60" rx="10" ry="10" fill="#4caf50" />
+  <rect x="155" y="185" width="90" height="50" rx="8" ry="8" fill="#3d8b40" />
+  
+  <!-- Case Lid -->
+  <path d="M150 180 C150 160, 250 160, 250 180" stroke="#4caf50" stroke-width="4" fill="#4caf50" />
+  
+  <!-- Left Earbud -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="0" r="15" fill="#4caf50" />
+    <circle cx="0" cy="0" r="8" fill="#fff" />
+    <path d="M0 -15 C-5 -25, 5 -25, 0 -15" stroke="#4caf50" stroke-width="3" fill="none" />
+    <!-- Sport Hook -->
+    <path d="M0 0 C15 -5, 20 10, 5 15" stroke="#4caf50" stroke-width="3" fill="none" />
+  </g>
+  
+  <!-- Right Earbud -->
+  <g transform="translate(280, 140)">
+    <circle cx="0" cy="0" r="15" fill="#4caf50" />
+    <circle cx="0" cy="0" r="8" fill="#fff" />
+    <path d="M0 -15 C-5 -25, 5 -25, 0 -15" stroke="#4caf50" stroke-width="3" fill="none" />
+    <!-- Sport Hook -->
+    <path d="M0 0 C-15 -5, -20 10, -5 15" stroke="#4caf50" stroke-width="3" fill="none" />
+  </g>
+  
+  <!-- Water Droplets -->
+  <path d="M180 120 C175 110, 185 110, 180 120 Z" fill="#e4e8f0" />
+  <path d="M220 120 C215 110, 225 110, 220 120 Z" fill="#e4e8f0" />
+  <path d="M200 100 C195 90, 205 90, 200 100 Z" fill="#e4e8f0" />
+  
+  <!-- Product Name -->
+  <text x="200" y="300" font-family="Arial" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Sampli Sport</text>
+</svg>

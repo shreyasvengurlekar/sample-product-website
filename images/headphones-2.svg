@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="150" fill="#f0f3ff" />
+  
+  <!-- Earbuds Case -->
+  <rect x="150" y="180" width="100" height="60" rx="10" ry="10" fill="#6c63ff" />
+  <rect x="155" y="185" width="90" height="50" rx="8" ry="8" fill="#5a52d5" />
+  
+  <!-- Case Lid -->
+  <path d="M150 180 C150 160, 250 160, 250 180" stroke="#6c63ff" stroke-width="4" fill="#6c63ff" />
+  
+  <!-- Left Earbud -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="0" r="15" fill="#6c63ff" />
+    <circle cx="0" cy="0" r="8" fill="#fff" />
+    <path d="M0 -15 C-5 -25, 5 -25, 0 -15" stroke="#6c63ff" stroke-width="3" fill="none" />
+  </g>
+  
+  <!-- Right Earbud -->
+  <g transform="translate(280, 140)">
+    <circle cx="0" cy="0" r="15" fill="#6c63ff" />
+    <circle cx="0" cy="0" r="8" fill="#fff" />
+    <path d="M0 -15 C-5 -25, 5 -25, 0 -15" stroke="#6c63ff" stroke-width="3" fill="none" />
+  </g>
+  
+  <!-- Sound Waves (Left) -->
+  <path d="M100 140 C90 120, 90 160, 100 140" stroke="#e4e8f0" stroke-width="2" fill="none" />
+  <path d="M90 140 C75 110, 75 170, 90 140" stroke="#e4e8f0" stroke-width="2" fill="none" />
+  
+  <!-- Sound Waves (Right) -->
+  <path d="M300 140 C310 120, 310 160, 300 140" stroke="#e4e8f0" stroke-width="2" fill="none" />
+  <path d="M310 140 C325 110, 325 170, 310 140" stroke="#e4e8f0" stroke-width="2" fill="none" />
+  
+  <!-- Product Name -->
+  <text x="200" y="300" font-family="Arial" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Sampli Air</text>
+</svg>

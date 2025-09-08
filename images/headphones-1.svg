@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="150" fill="#f0f3ff" />
+  
+  <!-- Headphones Body -->
+  <path d="M100 200 C100 140, 150 100, 200 100 C250 100, 300 140, 300 200" stroke="#000" stroke-width="8" fill="none" />
+  
+  <!-- Left Ear Cup -->
+  <g>
+    <ellipse cx="100" cy="200" rx="30" ry="45" fill="#000" />
+    <ellipse cx="100" cy="200" rx="20" ry="35" fill="#222" />
+    <ellipse cx="100" cy="200" rx="10" ry="25" fill="#444" />
+  </g>
+  
+  <!-- Right Ear Cup -->
+  <g>
+    <ellipse cx="300" cy="200" rx="30" ry="45" fill="#000" />
+    <ellipse cx="300" cy="200" rx="20" ry="35" fill="#222" />
+    <ellipse cx="300" cy="200" rx="10" ry="25" fill="#444" />
+  </g>
+  
+  <!-- Left Support -->
+  <path d="M100 155 C100 130, 130 80, 160 80" stroke="#333" stroke-width="6" fill="none" />
+  
+  <!-- Right Support -->
+  <path d="M300 155 C300 130, 270 80, 240 80" stroke="#333" stroke-width="6" fill="none" />
+  
+  <!-- Headband -->
+  <path d="M160 80 L240 80" stroke="#333" stroke-width="8" fill="none" />
+  <path d="M160 72 L240 72" stroke="#000" stroke-width="6" fill="none" />
+  
+  <!-- Product Name -->
+  <text x="200" y="300" font-family="Arial" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Sampli Pro X</text>
+</svg>

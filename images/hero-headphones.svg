@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background Circle -->
+  <circle cx="400" cy="300" r="250" fill="#f0f3ff" />
+  
+  <!-- Headphones Body -->
+  <path d="M250 300 C250 200, 350 150, 400 150 C450 150, 550 200, 550 300" stroke="#6c63ff" stroke-width="12" fill="none" />
+  
+  <!-- Left Ear Cup -->
+  <g>
+    <ellipse cx="250" cy="300" rx="50" ry="70" fill="#6c63ff" />
+    <ellipse cx="250" cy="300" rx="35" ry="55" fill="#5a52d5" />
+    <ellipse cx="250" cy="300" rx="20" ry="40" fill="#4a44b2" />
+  </g>
+  
+  <!-- Right Ear Cup -->
+  <g>
+    <ellipse cx="550" cy="300" rx="50" ry="70" fill="#6c63ff" />
+    <ellipse cx="550" cy="300" rx="35" ry="55" fill="#5a52d5" />
+    <ellipse cx="550" cy="300" rx="20" ry="40" fill="#4a44b2" />
+  </g>
+  
+  <!-- Left Support -->
+  <path d="M250 230 C250 180, 300 120, 350 120" stroke="#333" stroke-width="8" fill="none" />
+  
+  <!-- Right Support -->
+  <path d="M550 230 C550 180, 500 120, 450 120" stroke="#333" stroke-width="8" fill="none" />
+  
+  <!-- Headband -->
+  <path d="M350 120 L450 120" stroke="#333" stroke-width="12" fill="none" />
+  <path d="M350 110 L450 110" stroke="#6c63ff" stroke-width="8" fill="none" />
+  
+  <!-- Sound Waves (Left) -->
+  <path d="M180 300 C160 260, 160 340, 180 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  <path d="M160 300 C130 240, 130 360, 160 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  <path d="M140 300 C100 220, 100 380, 140 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  
+  <!-- Sound Waves (Right) -->
+  <path d="M620 300 C640 260, 640 340, 620 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  <path d="M640 300 C670 240, 670 360, 640 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  <path d="M660 300 C700 220, 700 380, 660 300" stroke="#e4e8f0" stroke-width="4" fill="none" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="250" cy="300" r="5" fill="#fff" />
+  <circle cx="550" cy="300" r="5" fill="#fff" />
+  
+  <!-- Brand Logo -->
+  <text x="385" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="#6c63ff">SAMPLI</text>
+</svg>

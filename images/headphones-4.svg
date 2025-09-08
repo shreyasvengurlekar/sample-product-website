@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="150" fill="#f0f3ff" />
+  
+  <!-- Headphones Body -->
+  <path d="M100 200 C100 140, 150 100, 200 100 C250 100, 300 140, 300 200" stroke="#333" stroke-width="8" fill="none" />
+  
+  <!-- Left Ear Cup -->
+  <g>
+    <ellipse cx="100" cy="200" rx="35" ry="50" fill="#333" />
+    <ellipse cx="100" cy="200" rx="25" ry="40" fill="#555" />
+    <ellipse cx="100" cy="200" rx="15" ry="30" fill="#777" />
+  </g>
+  
+  <!-- Right Ear Cup -->
+  <g>
+    <ellipse cx="300" cy="200" rx="35" ry="50" fill="#333" />
+    <ellipse cx="300" cy="200" rx="25" ry="40" fill="#555" />
+    <ellipse cx="300" cy="200" rx="15" ry="30" fill="#777" />
+  </g>
+  
+  <!-- Left Support -->
+  <path d="M100 150 C100 120, 130 70, 160 70" stroke="#333" stroke-width="6" fill="none" />
+  
+  <!-- Right Support -->
+  <path d="M300 150 C300 120, 270 70, 240 70" stroke="#333" stroke-width="6" fill="none" />
+  
+  <!-- Headband -->
+  <path d="M160 70 L240 70" stroke="#333" stroke-width="8" fill="none" />
+  <path d="M160 62 L240 62" stroke="#333" stroke-width="6" fill="none" />
+  
+  <!-- Studio Elements -->
+  <rect x="70" y="150" width="10" height="100" rx="2" ry="2" fill="#333" />
+  <rect x="320" y="150" width="10" height="100" rx="2" ry="2" fill="#333" />
+  
+  <!-- Audio Waves -->
+  <path d="M200 250 C180 240, 220 240, 200 250" stroke="#333" stroke-width="2" fill="none" />
+  <path d="M200 260 C170 245, 230 245, 200 260" stroke="#333" stroke-width="2" fill="none" />
+  <path d="M200 270 C160 250, 240 250, 200 270" stroke="#333" stroke-width="2" fill="none" />
+  
+  <!-- Product Name -->
+  <text x="200" y="300" font-family="Arial" font-size="18" font-weight="bold" fill="#000" text-anchor="middle">Sampli Studio</text>
+</svg>
