@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampli - Premium Wireless Headphones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sampli</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience Sound Like Never Before</h1>
+                <p>Premium wireless headphones with exceptional sound quality and comfort.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-headphones.svg" alt="Premium Wireless Headphones">
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-filters">
+                <div class="search-container">
+                    <input type="text" id="product-search" placeholder="Search products...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filter-container">
+                    <div class="filter-group">
+                        <label for="price-filter">Price Range:</label>
+                        <select id="price-filter">
+                            <option value="all">All Prices</option>
+                            <option value="0-150">Under $150</option>
+                            <option value="150-250">$150 - $250</option>
+                            <option value="250-350">$250 - $350</option>
+                            <option value="350+">$350+</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="type-filter">Type:</label>
+                        <select id="type-filter">
+                            <option value="all">All Types</option>
+                            <option value="headphones">Headphones</option>
+                            <option value="earbuds">Earbuds</option>
+                        </select>
+                    </div>
+                    <button id="reset-filters" class="reset-btn">Reset Filters</button>
+                </div>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Product items will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Sampli?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-battery-full"></i>
+                    <h3>40+ Hours Battery Life</h3>
+                    <p>Enjoy your music all day long with our long-lasting battery.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Bluetooth 5.2</h3>
+                    <p>Latest connectivity technology for stable and efficient connection.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-volume-up"></i>
+                    <h3>Active Noise Cancellation</h3>
+                    <p>Block out the world and immerse yourself in your music.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tint"></i>
+                    <h3>Water Resistant</h3>
+                    <p>IPX4 rated for protection against sweat and light rain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"These headphones have completely transformed my listening experience. The sound quality is incredible!"</p>
+                    <div class="testimonial-author">- Sarah J.</div>
+                </div>
+                <div class="testimonial">
+                    <p>"The battery life is amazing. I can go days without charging them!"</p>
+                    <div class="testimonial-author">- Michael T.</div>
+                </div>
+                <div class="testimonial">
+                    <p>"The noise cancellation feature is perfect for my daily commute. Worth every penny!"</p>
+                    <div class="testimonial-author">- Emma R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <p>Total: <span id="cart-total-price">$0.00</span></p>
+            </div>
+            <button class="btn checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkout-modal">
+        <div class="checkout-content">
+            <div class="checkout-header">
+                <h2>Checkout</h2>
+                <button class="close-checkout" id="close-checkout">&times;</button>
+            </div>
+            <form id="checkout-form">
+                <div class="form-section">
+                    <h3>Shipping Information</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">ZIP Code</label>
+                            <input type="text" id="zip" name="zip" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="US">United States</option>
+                            <option value="CA">Canada</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="AU">Australia</option>
+                            <!-- Add more countries as needed -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Payment Information</h3>
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkout-summary">
+                    <h3>Order Summary</h3>
+                    <div id="checkout-items">
+                        <!-- Checkout items will be dynamically added here -->
+                    </div>
+                    <div class="checkout-total">
+                        <p>Total: <span id="checkout-total-price">$0.00</span></p>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn place-order-btn">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Order Confirmation Modal -->
+    <div class="confirmation-modal" id="confirmation-modal">
+        <div class="confirmation-content">
+            <div class="confirmation-header">
+                <h2>Order Confirmed!</h2>
+                <button class="close-confirmation" id="close-confirmation">&times;</button>
+            </div>
+            <div class="confirmation-message">
+                <i class="fas fa-check-circle"></i>
+                <p>Thank you for your purchase!</p>
+                <p>Your order has been confirmed and will be shipped soon.</p>
+                <p>Order confirmation has been sent to your email.</p>
+            </div>
+            <button class="btn continue-shopping-btn" id="continue-shopping-btn">Continue Shopping</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Sampli</h2>
+                    <p>Premium audio products for everyone.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> support@sampli.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Sampli. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
