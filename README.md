@@ -9,13 +9,21 @@ Welcome to Headphones For All, your one-stop shop for high-quality wireless head
 *   **Seamless Checkout:** Enjoy a smooth and secure checkout process.
 *   **Responsive Design:** Experience the website on any device, thanks to its fully responsive design.
 
+## Website Preview
+
+Below is a mini-preview of the Headphones For All website.
+
+*To add your own preview, you can add a screenshot or a GIF of the website in action.*
+
+![Website Preview](https://via.placeholder.com/800x400.png?text=Website+Preview)
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/sample-product-website.git
+    git clone https://github.com/shreyasvengurlekar/sample-product-website.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -40,8 +48,17 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+## Personalization
+
+To make this project your own, you'll need to update a few things in this `README.md` file:
+
+*   **Repository URL:** In the "Clone the repository" section, I have replaced `your-username` with your GitHub username.
+*   **Contact Information:** In the "Contact" section, I have updated the placeholder text with your name and email address.
+*   **Project Link:** At the bottom of the file, I have replaced `your-username` with your GitHub username to link to your repository.
+*   **Website Preview:** Replace the placeholder image with a screenshot or GIF of your live website.
+
 ## Contact
 
-Your Name - [@your\_twitter](https://twitter.com/your_twitter) - email@example.com
+Shreyas Vengurlekar - shreyasvengurlekar2004@gmail.com
 
-Project Link: [https://github.com/your-username/sample-product-website](https://github.com/your-username/sample-product-website)
+Project Link: [https://github.com/shreyasvengurlekar/sample-product-website](https://github.com/shreyasvengurlekar/sample-product-website)
