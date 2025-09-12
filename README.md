@@ -30,7 +30,7 @@ To get a local copy up and running, follow these simple steps:
     cd sample-product-website
     ```
 3.  **Open `index.html` in your browser:**
-    Simply open the [`index.html`](sample-product-website/index.html:1) file in your favorite web browser to view the website.
+    Simply open the [`index.html`](sample-product-website/index.html) file in your favorite web browser to view the website.
 
 ## Contributing
 
