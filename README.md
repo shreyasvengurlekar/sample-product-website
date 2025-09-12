@@ -15,7 +15,20 @@ Below is a mini-preview of the Headphones For All website.
 
 *To add your own preview, you can add a screenshot or a GIF of the website in action.*
 
-![Website Preview](https://via.placeholder.com/800x400.png?text=Website+Preview)
+![Website Preview](./images/hero-headphones.svg)
+
+### Mini-Screen Feature
+
+A new mini-screen has been added to the website. It's a floating button that links to the main website, `headphones-for-all.netlify.app`, and opens in a new tab. This provides a persistent and convenient way for users to access the main site.
+
+Here is the code snippet for the mini-screen:
+
+```html
+<!-- Mini Screen Link -->
+<a href="https://headphones-for-all.netlify.app" target="_blank" class="mini-screen-link" title="Visit our main website">
+    <i class="fas fa-desktop"></i>
+</a>
+```
 
 ## Getting Started
 
@@ -30,7 +43,7 @@ To get a local copy up and running, follow these simple steps:
     cd sample-product-website
     ```
 3.  **Open `index.html` in your browser:**
-    Simply open the [`index.html`](sample-product-website\index.html) file in your favorite web browser to view the website.
+    Simply open the `index.html` file from your local copy in your favorite web browser to view the website.
 
 ## Contributing
 
