@@ -11,24 +11,18 @@ Welcome to Headphones For All, your one-stop shop for high-quality wireless head
 
 ## Website Preview
 
-Below is a mini-preview of the Headphones For All website.
+Below is an interactive preview of the live website.
 
-*To add your own preview, you can add a screenshot or a GIF of the website in action.*
+**Note:** This embedded preview may not work on all platforms (like GitHub's default README viewer). If you see a blank space, please [visit the live website directly](https://headphones-for-all.netlify.app).
 
-![Website Preview](./images/hero-headphones.svg)
-
-### Mini-Screen Feature
-
-A new mini-screen has been added to the website. It's a floating button that links to the main website, `headphones-for-all.netlify.app`, and opens in a new tab. This provides a persistent and convenient way for users to access the main site.
-
-Here is the code snippet for the mini-screen:
-
-```html
-<!-- Mini Screen Link -->
-<a href="https://headphones-for-all.netlify.app" target="_blank" class="mini-screen-link" title="Visit our main website">
-    <i class="fas fa-desktop"></i>
-</a>
-```
+<p align="center">
+  <iframe src="https://headphones-for-all.netlify.app"
+          width="800"
+          height="450"
+          style="border:1px solid #ccc; border-radius: 8px;"
+          title="Live Website Preview">
+  </iframe>
+</p>
 
 ## Getting Started
 
@@ -63,15 +57,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Personalization
 
-To make this project your own, you'll need to update a few things in this `README.md` file:
-
-*   **Repository URL:** In the "Clone the repository" section, I have replaced `your-username` with your GitHub username.
-*   **Contact Information:** In the "Contact" section, I have updated the placeholder text with your name and email address.
-*   **Project Link:** At the bottom of the file, I have replaced `your-username` with your GitHub username to link to your repository.
-*   **Website Preview:** Replace the placeholder image with a screenshot or GIF of your live website.
+This project can be easily personalized. The product data is stored in the `script.js` file, which can be modified to feature different products. The styling can be customized by editing the `styles.css` file.
 
 ## Contact
 
-Shreyas Vengurlekar - shreyasvengurlekar2004@gmail.com
-
-Project Link: [https://github.com/shreyasvengurlekar/sample-product-website](https://github.com/shreyasvengurlekar/sample-product-website)
+- **Author:** Shreyas Vengurlekar
+- **Email:** [shreyasvengurlekar2004@gmail.com](mailto:shreyasvengurlekar2004@gmail.com)
+- **Project Link:** [https://github.com/shreyasvengurlekar/sample-product-website](https://github.com/shreyasvengurlekar/sample-product-website)
