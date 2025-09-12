@@ -15,8 +15,7 @@ Below is a preview of the live website. Click the image to visit the live site.
 
 <p align="center">
   <a href="https://headphones-for-all.netlify.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://i.imgur.com/your-screenshot-url.png" alt="Website Preview" width="800">
-        <img src="E:\GitHub\sample-product-website\images\hero-headphones.svg" alt="Website Preview" width="800">
+    <img src="E:\GitHub\sample-product-website\images\hero-headphones.svg" alt="Website Preview" width="800">
   </a>
 </p>
 
