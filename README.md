@@ -11,17 +11,12 @@ Welcome to Headphones For All, your one-stop shop for high-quality wireless head
 
 ## Website Preview
 
-Below is an interactive preview of the live website.
-
-**Note:** This embedded preview may not work on all platforms (like GitHub's default README viewer). If you see a blank space, please [visit the live website directly](https://headphones-for-all.netlify.app).
+Below is a preview of the live website. Click the image to visit the live site.
 
 <p align="center">
-  <iframe src="https://headphones-for-all.netlify.app"
-          width="800"
-          height="450"
-          style="border:1px solid #ccc; border-radius: 8px;"
-          title="Live Website Preview">
-  </iframe>
+  <a href="https://headphones-for-all.netlify.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://i.imgur.com/your-screenshot-url.png" alt="Website Preview" width="800">
+  </a>
 </p>
 
 ## Getting Started
@@ -57,7 +52,31 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Personalization
 
-This project can be easily personalized. The product data is stored in the `script.js` file, which can be modified to feature different products. The styling can be customized by editing the `styles.css` file.
+This project is designed to be easily customizable. Here’s how you can make it your own:
+
+### 1. Update Product Data
+
+All product information is located in the `products` array at the top of the `script.js` file. You can modify this array to add, remove, or edit products. Each product object has the following properties:
+
+-   `id`: A unique identifier for the product.
+-   `name`: The name of the product.
+-   `description`: A brief description of the product.
+-   `price`: The price of the product.
+-   `image`: The path to the product image.
+-   `colors`: An array of color options for the product.
+-   `type`: The type of product (e.g., 'headphones', 'earbuds').
+
+### 2. Customize Styling
+
+The website's appearance can be customized by editing the `styles.css` file. You can change the color scheme, fonts, and layout to match your brand. The primary color is defined by the hex code `#6c63ff`, which can be found and replaced throughout the file.
+
+### 3. Change Branding
+
+To change the branding, you will need to update the following:
+
+-   **Logo:** The logo text can be changed in the `<header>` section of the `index.html` file.
+-   **Images:** Replace the images in the `images` directory with your own product images.
+-   **Content:** Update the text content in the `index.html` file to reflect your brand's messaging.
 
 ## Contact
 
